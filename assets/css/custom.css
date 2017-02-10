@@ -71,7 +71,7 @@ body {
     background-color: #4aaaa5;
     min-width: 230px;
     max-width: 250px;
-    bottom: 75px;
+    bottom: 55px;
     text-align: center;
 }
 
@@ -85,4 +85,8 @@ body {
 
 .navbar-fixed-bottom {
     text-align: center;
+}
+
+.btn-primary {
+    background-color:#4aaaa5;
 }

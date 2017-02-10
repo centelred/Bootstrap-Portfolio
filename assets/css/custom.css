@@ -38,13 +38,20 @@ body {
 }
 
 /*bio-pic image */
-
-.pull-left {
-    padding-right: 20px;
+.pull-left, img, .img-rounded {
+  width:250px;
+  height:275px;
+  padding-right:10px;
 }
 
 .conpic {
   padding:10px;
+  margin-left:10px;
+}
+
+img, .conpic {
+  width:60px;
+  height:60px;
 }
 
 .thumbnail {
@@ -60,9 +67,17 @@ body {
   text-align:center;
 }
 
+.panel-heading, h3 {
+  text-align:center;
+}
+
 /*footer*/
 
 .navbar-fixed-bottom {
     padding-top: 15px;
     border-top: solid 4px #4aaaa5;
+}
+
+.navbar-fixed-bottom {
+  text-align:center;
 }

@@ -10,66 +10,71 @@ body {
     border-bottom: solid 2px #ddd;
 }
 
+.navbar-inverse {
+    font-family: "Georgia", "Times-New-Roman", times, serif;
+}
+
 .navbar-inverse .navbar-brand {
-  font-family:"Georgia", "Times-New-Roman", times, serif;
-  color:black;
+    color:black;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color:#4aaaa5;
+    color: #4aaaa5;
 }
 
 .navbar-brand {
-  background-color:#4aaaa5;
+    background-color: #4aaaa5;
 }
 
 .navbar-brand {
-  color:black;
+    color: black;
 }
 
 .panel {
-  background-color:#eee;
+    background-color: #eee;
 }
 
 .panel-title {
+    font-family: "Georgia", "Times-New-Roman", times, serif;
     font-weight: bold;
     color: #4aaaa5;
     padding: 10px;
 }
 
+
 /*bio-pic image */
-.pull-left, img, .img-rounded {
-  width:250px;
-  height:275px;
-  padding-right:10px;
+
+
+.img-rounded {
+    width: 250px;
+    height: 275px;
+    margin-right:10px;
 }
 
 .conpic {
-  padding:10px;
-  margin-left:10px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
-img, .conpic {
-  width:60px;
-  height:60px;
+.conpic {
+    width: 60px;
+    height: 60px;
 }
 
 .thumbnail {
-  min-width:175px;
-  max-width:250px;
+
+    min-width: 175px;
+    max-width: 250px;
 }
 
 .caption {
-  background-color:#4aaaa5;
-  min-width:230px;
-  max-width:250px;
-  bottom:75px;
-  text-align:center;
+    background-color: #4aaaa5;
+    min-width: 230px;
+    max-width: 250px;
+    bottom: 75px;
+    text-align: center;
 }
 
-.panel-heading, h3 {
-  text-align:center;
-}
 
 /*footer*/
 
@@ -79,5 +84,5 @@ img, .conpic {
 }
 
 .navbar-fixed-bottom {
-  text-align:center;
+    text-align: center;
 }

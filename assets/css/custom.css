@@ -10,6 +10,23 @@ body {
     border-bottom: solid 2px #ddd;
 }
 
+.navbar-inverse .navbar-brand {
+  font-family:"Georgia", "Times-New-Roman", times, serif;
+  color:black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color:#4aaaa5;
+}
+
+.navbar-brand {
+  background-color:#4aaaa5;
+}
+
+.navbar-brand {
+  color:black;
+}
+
 .panel {
   background-color:#eee;
 }
@@ -28,6 +45,19 @@ body {
 
 .conpic {
   padding:10px;
+}
+
+.thumbnail {
+  min-width:175px;
+  max-width:250px;
+}
+
+.caption {
+  background-color:#4aaaa5;
+  min-width:230px;
+  max-width:250px;
+  bottom:75px;
+  text-align:center;
 }
 
 /*footer*/

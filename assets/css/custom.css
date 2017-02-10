@@ -1,0 +1,38 @@
+/* body */
+
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url("../images/brushed.jpg");
+}
+
+.navbar-fixed-top {
+    border-bottom: solid 2px #ddd;
+}
+
+.panel {
+  background-color:#eee;
+}
+
+.panel-title {
+    font-weight: bold;
+    color: #4aaaa5;
+    padding: 10px;
+}
+
+/*bio-pic image */
+
+.pull-left {
+    padding-right: 20px;
+}
+
+.conpic {
+  padding:10px;
+}
+
+/*footer*/
+
+.navbar-fixed-bottom {
+    padding-top: 15px;
+    border-top: solid 4px #4aaaa5;
+}

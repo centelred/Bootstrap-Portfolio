@@ -62,7 +62,7 @@ body {
 }
 
 .thumbnail {
-
+    display:inline-block;
     min-width: 175px;
     max-width: 250px;
 }
@@ -81,10 +81,6 @@ body {
 .navbar-fixed-bottom {
     padding-top: 15px;
     border-top: solid 4px #4aaaa5;
-}
-
-.navbar-fixed-bottom {
-    text-align: center;
 }
 
 .btn-primary {
